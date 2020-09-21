@@ -1,10 +1,12 @@
 import React from 'react';
+import Navbar from './components/Navbar';
 
 const Home = () => {
-    console.log('hola, next!');
+    console.log('hola, next home!');
     return (
         <div>
-            Hola, next.js!
+            <Navbar />
+            <h1 style={{ color: "papayawhip" }}>Hola, next.js! this is home baby </h1>
         </div>
     )
 };

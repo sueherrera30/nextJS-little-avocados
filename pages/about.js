@@ -1,10 +1,14 @@
 import React from 'react';
+import Navbar from './components/Navbar';
 
 const About = () => {
     console.log('hola, next!');
     return (
         <div>
-            Hola, pagina estática : A B O U T!
+            <Navbar />
+            <h2 style={{ color: "darkcyan" }}>
+                Hola, pagina estática : A B O U T!
+            </h2>
         </div>
     )
 };
