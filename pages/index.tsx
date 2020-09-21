@@ -12,7 +12,6 @@ const Home = () => {
     },[]);
     return (
         <div>
-            <Navbar />
             <h1 style={{ color: "papayawhip" }}>Hola, next.js! this is home baby </h1>
             {
               productList.map(avocado => (<div key={avocado.id}>{avocado.name}</div> ))
