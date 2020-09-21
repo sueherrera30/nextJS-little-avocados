@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nimport Link from 'next/link';\n\nconst Navbar = () => __jsx(\"div\", null, __jsx(Link, {\n  href: \"/about\"\n}, __jsx(\"a\", null, \"About :D \")), __jsx(Link, {\n  href: \"/\"\n}, __jsx(\"a\", null, \"Home :P \")));\n\nexport default Navbar;","map":null,"metadata":{},"sourceType":"module"}
