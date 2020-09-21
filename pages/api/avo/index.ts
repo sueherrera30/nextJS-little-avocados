@@ -9,11 +9,11 @@ const allAvos = async (request: IncomingMessage, response: ServerResponse) => {
     //guardamos en una variable todas las entradas:
     // como esa funcion es asyn llamamos el await, y recibiremos un array
     const allEntries = await db.getAll();
-
+    const length = allEntries.length;
     response.statusCode =200;
     // le ponemos el header de next.js
     response.setHeader('Content-type', 'application/json')
-    response.end(JSON.stringify({data: allEntries }));
+    response.end(JSON.stringify({data: allEntries, length }));
 }
 
 export default allAvos;
