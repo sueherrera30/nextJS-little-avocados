@@ -13,9 +13,9 @@ const Home = () => {
     return (
         <div>
             <div className="logo-container">
-             <span className="title"> Agua </span>
+             <span className="title"> AGUA </span>
              <img className="logo" src="/images/aguacate.png" />
-             <span className="title">catitos</span>
+             <span className="title">caTitos</span>
             </div>
             {
               productList.map(avocado => (<div key={avocado.id}>{avocado.name}</div> ))
@@ -27,8 +27,11 @@ const Home = () => {
                 font-family: 'Quicksand', sans-serif;
                 font-weight: 600;
                 font-size: 40px;
-                letter-spacing: 2px;
+                letter-spacing: 4px;
                 text-align: center;
+              }
+              .title:first-child {
+                  color: #88D57F;
               }
               .logo {
                   width: 60px;
