@@ -1,5 +1,7 @@
 import { AppProps } from 'next/app';
 import Layout from '../components/Layout/Layout';
+import '../style.css';
+// import Layout from '@components';
 
 function MyApp({ Component, pageProps }: AppProps ) {
     //como que quiro que todas las vistas lo tenga lo llamamos aqui:

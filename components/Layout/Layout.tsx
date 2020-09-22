@@ -6,7 +6,7 @@ import Navbar from '../Navbar';
 const Layout: React.FC = ({ children }) => {
     console.log('hola, layout!');
     return (
-        <div>
+        <div className="container">
             <Navbar />
             { children }
             <footer>this is the footer, comingo soon a exported element :P solo en cines.</footer>
